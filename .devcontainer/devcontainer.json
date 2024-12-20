@@ -1,0 +1,21 @@
+{
+    "build": { "dockerfile": "Dockerfile" },
+    "hostRequirements": {
+        "cpus": 4
+    },
+    "waitFor": "onCreateCommand",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ocamllabs.ocaml-platform",
+                "ms-vscode.test-adapter-converter"
+            ]
+        }
+    },
+
+    "postCreateCommand": "",
+    "postAttachCommand": {
+        "server": "dune build --watch"
+      }
+
+}
