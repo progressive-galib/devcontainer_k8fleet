@@ -8,7 +8,8 @@
         "vscode": {
             "extensions": [
                 "ocamllabs.ocaml-platform",
-                "ms-vscode.test-adapter-converter"
+                "ms-vscode.test-adapter-converter",
+                "krish-r.vscode-toggle-terminal"
             ]
         }
     },
