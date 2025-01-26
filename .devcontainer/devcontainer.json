@@ -15,8 +15,6 @@
     },
 
     "postCreateCommand": "",
-    "postAttachCommand": {
-        "server": "dune build --watch"
-      }
+    "postAttachCommand": ""
 
 }
