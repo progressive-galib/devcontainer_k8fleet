@@ -27,5 +27,5 @@ WORKDIR /home/opam/workspace
 # Copy your project files (if any)
 COPY . /home/opam/workspace
 
-# Set the default command
-CMD ["bash"]
+# Set the default command CMD ["bash"]
+
