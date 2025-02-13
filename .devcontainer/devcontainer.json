@@ -10,7 +10,7 @@
         "vscode": {
             "extensions": [
                 "ocamllabs.ocaml-platform",
-                "ms-vscode.test-adapter-converter",
+                "muchtrix.ocaml-tuareg-master",
                 "krish-r.vscode-toggle-terminal"
             ]
         }
