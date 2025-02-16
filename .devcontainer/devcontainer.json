@@ -1,7 +1,6 @@
 {
     "build": { "dockerfile": "Dockerfile" },
     "hostRequirements": {
-        "cpus": 8
     },
     "waitFor": "onCreateCommand",
     "customizations": {
