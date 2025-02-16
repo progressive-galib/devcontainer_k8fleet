@@ -1,0 +1,21 @@
+{
+    "build": { "dockerfile": "Dockerfile" },
+    "hostRequirements": {
+    },
+    "waitFor": "onCreateCommand",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ocamllabs.ocaml-platform",
+                "muchtrix.ocaml-tuareg-master",
+                "GitHub.vscode-pull-request-github",
+                "GitHub.remotehub",
+                "krish-r.vscode-toggle-terminal"
+            ]
+        }
+    },
+
+    "postCreateCommand": "",
+    "postAttachCommand": ""
+
+}

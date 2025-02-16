@@ -1,0 +1,40 @@
+2025-02-16 08:58:07.943Z: Host information
+2025-02-16 08:58:07.952Z: ----------------
+2025-02-16 08:58:07.953Z: OS: Ubuntu 22.04.5 LTS (stable release)
+2025-02-16 08:58:07.953Z: Image details: https://github.com/github/codespaces-host-images/blob/main/README.md
+2025-02-16 08:58:07.953Z: ----------------
+
+=================================================================================
+2025-02-16 08:58:07.953Z: Configuration starting...
+2025-02-16 08:58:07.960Z: Cloning...
+
+=================================================================================
+2025-02-16 08:58:08.019Z: Creating container...
+2025-02-16 08:58:08.080Z: $ devcontainer up --id-label Type=codespaces --workspace-folder /var/lib/docker/codespacemount/workspace/devcontainer_k8fleet --mount type=bind,source=/.codespaces/agent/mount/cache,target=/vscode --user-data-folder /var/lib/docker/codespacemount/.persistedshare --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --log-level trace --log-format json --update-remote-user-uid-default never --mount-workspace-git-root false --omit-config-remote-env-from-metadata --skip-non-blocking-commands --skip-post-create --expect-existing-container --config "/var/lib/docker/codespacemount/workspace/devcontainer_k8fleet/.devcontainer/devcontainer.json" --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --container-session-data-folder /workspaces/.codespaces/.persistedshare/devcontainers-cli/cache --secrets-file /root/.codespaces/shared/user-secrets-envs.json
+2025-02-16 08:58:08.264Z: @devcontainers/cli 0.68.0. Node.js v18.20.6. linux 6.5.0-1025-azure x64.
+2025-02-16 08:58:08.603Z: $ docker start 6f09fc016ac3da5ff1872c26b1662e103a145d3322b043af3209c99d7d699504
+2025-02-16 08:58:08.841Z: 6f09fc016ac3da5ff1872c26b1662e103a145d3322b043af3209c99d7d699504
+
+2025-02-16 08:58:08.845Z: Stop: Run: docker start 6f09fc016ac3da5ff1872c26b1662e103a145d3322b043af3209c99d7d699504
+2025-02-16 08:58:09.956Z: Outcome: success User: vscode WorkspaceFolder: /workspaces/devcontainer_k8fleet
+2025-02-16 08:58:09.969Z: devcontainer process exited with exit code 0
+
+=================================================================================
+2025-02-16 08:58:10.326Z: Running blocking commands...
+2025-02-16 08:58:10.354Z: $ devcontainer up --id-label Type=codespaces --workspace-folder /var/lib/docker/codespacemount/workspace/devcontainer_k8fleet --mount type=bind,source=/.codespaces/agent/mount/cache,target=/vscode --user-data-folder /var/lib/docker/codespacemount/.persistedshare --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --log-level trace --log-format json --update-remote-user-uid-default never --mount-workspace-git-root false --omit-config-remote-env-from-metadata --skip-non-blocking-commands --expect-existing-container --config "/var/lib/docker/codespacemount/workspace/devcontainer_k8fleet/.devcontainer/devcontainer.json" --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --container-session-data-folder /workspaces/.codespaces/.persistedshare/devcontainers-cli/cache --secrets-file /root/.codespaces/shared/user-secrets-envs.json
+2025-02-16 08:58:10.561Z: @devcontainers/cli 0.68.0. Node.js v18.20.6. linux 6.5.0-1025-azure x64.
+2025-02-16 08:58:10.858Z: Outcome: success User: vscode WorkspaceFolder: /workspaces/devcontainer_k8fleet
+2025-02-16 08:58:10.868Z: devcontainer process exited with exit code 0
+
+=================================================================================
+2025-02-16 08:58:10.928Z: Configuring codespace...
+
+=================================================================================
+2025-02-16 08:58:10.928Z: Running commands...
+2025-02-16 08:58:10.928Z: $ devcontainer up --id-label Type=codespaces --workspace-folder /var/lib/docker/codespacemount/workspace/devcontainer_k8fleet --expect-existing-container --skip-post-attach --mount type=bind,source=/.codespaces/agent/mount/cache,target=/vscode --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --log-level trace --log-format json --update-remote-user-uid-default never --mount-workspace-git-root false --config "/var/lib/docker/codespacemount/workspace/devcontainer_k8fleet/.devcontainer/devcontainer.json" --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --container-session-data-folder /workspaces/.codespaces/.persistedshare/devcontainers-cli/cache --secrets-file /root/.codespaces/shared/user-secrets-envs.json
+2025-02-16 08:58:11.289Z: @devcontainers/cli 0.68.0. Node.js v18.20.6. linux 6.5.0-1025-azure x64.
+2025-02-16 08:58:11.546Z: Outcome: success User: vscode WorkspaceFolder: /workspaces/devcontainer_k8fleet
+2025-02-16 08:58:11.564Z: devcontainer process exited with exit code 0
+
+=================================================================================
+2025-02-16 08:58:11.727Z: Finished configuring codespace.
